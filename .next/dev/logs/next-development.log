@@ -1,0 +1,277 @@
+[00:00:09.028] Server  LOG     ✓ Ready in 6.2s
+[00:00:13.515] Server  WARN    Image with src "/_next/static/media/usp-image.d555b5fd.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:13.934] Server  WARN    ⚠ Cross origin request detected from 192.168.1.19 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:14.184] Browser WARN    Image with src "/_next/static/media/usp-image.d555b5fd.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:14.185] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:28:54.387] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.389] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.391] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.393] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.400] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.405] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.407] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.409] Server  ERROR   ⨯ ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:54.419] Server  LOG     ✓ Compiled in 229ms
+[00:28:55.077] Browser ERROR   ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:28:59.075] Browser ERROR   ./src/components/landing-page/HeroSection.tsx:7:1
+Module not found: Can't resolve '@/assets/images/hero-cinematic.jpg'
+   5 | import { ArrowRight, Check } from "lucide-react";
+   6 | import Image from "next/image";
+>  7 | import heroCinematic from "@/assets/images/hero-cinematic.jpg";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PrimaryCTA } from "@/components/ui/PrimaryCTA";
+   9 |
+  10 | export const HeroSection = () => {
+
+Import map: aliased to relative './src/assets/images/hero-cinematic.jpg' inside of [project]/
+
+Import traces:
+  Browser:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+  SSR:
+    ./src/components/landing-page/HeroSection.tsx
+    ./src/pages/landing-page/[lang].tsx
+    ./src/pages/[lang]/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:40.233] Server  LOG     ✓ Compiled in 462ms
+[00:29:58.468] Browser WARN    Image with src "/_next/static/media/solution-1.1b7bc895.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:58.468] Browser WARN    Image with src "/_next/static/media/solution-3.22dc236b.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:58.468] Browser WARN    Image with src "/_next/static/media/solution-2.ebead4e6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
