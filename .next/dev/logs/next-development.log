@@ -1,5 +1,8 @@
-[03:26:24.342] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open 'D:\Demo Project HTML\CraftX\.next\dev\server\pages\_app\build-manifest.json'
-[03:26:24.436] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open 'D:\Demo Project HTML\CraftX\.next\dev\server\pages\_app\build-manifest.json'
-[03:26:24.477] Server  ERROR   Error: ENOENT: no such file or directory, open 'D:\Demo Project HTML\CraftX\.next\dev\server\pages\_app\build-manifest.json'
-[03:26:24.507] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open 'D:\Demo Project HTML\CraftX\.next\dev\server\pages\_app\build-manifest.json'
-[03:26:24.543] Server  ERROR   Error: ENOENT: no such file or directory, open 'D:\Demo Project HTML\CraftX\.next\dev\server\pages\_app\build-manifest.json'
+[00:00:03.410] Server  LOG     ✓ Ready in 2.2s
+[00:00:08.990] Server  WARN    Image with src "/_next/static/media/usp-image.d555b5fd.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:10.320] Server  WARN    ⚠ Cross origin request detected from 192.168.1.19 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:10.665] Browser WARN    Image with src "/_next/static/media/usp-image.d555b5fd.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:10.665] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.

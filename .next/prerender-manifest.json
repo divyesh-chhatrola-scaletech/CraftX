@@ -1,0 +1,173 @@
+{
+  "version": 4,
+  "routes": {
+    "/en/privacy": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/privacy",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/en/privacy.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/privacy": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/privacy",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/de/privacy.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/terms": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/terms",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/en/terms.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/terms": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/terms",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/de/terms.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/imprint": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/imprint",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/en/imprint.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/imprint": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/imprint",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/de/imprint.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/landing-page/en": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/landing-page/[lang]",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/landing-page/en.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/landing-page/de": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/landing-page/[lang]",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/landing-page/de.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/[lang]/privacy": {
+      "routeRegex": "^/([^/]+?)/privacy(?:/)?$",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/[lang]/privacy.json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/PmMShBiWSnJlimuAmkyoj/([^/]+?)/privacy\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/[lang]/terms": {
+      "routeRegex": "^/([^/]+?)/terms(?:/)?$",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/[lang]/terms.json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/PmMShBiWSnJlimuAmkyoj/([^/]+?)/terms\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/[lang]/imprint": {
+      "routeRegex": "^/([^/]+?)/imprint(?:/)?$",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/[lang]/imprint.json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/PmMShBiWSnJlimuAmkyoj/([^/]+?)/imprint\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/landing-page/[lang]": {
+      "routeRegex": "^/landing\\-page/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/PmMShBiWSnJlimuAmkyoj/landing-page/[lang].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/PmMShBiWSnJlimuAmkyoj/landing\\-page/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "dee2811a2a52d7e4685c50cd8fffd042",
+    "previewModeSigningKey": "6459042aba82d005f8d4d880127f5b05e7b3691ace427e750ed06d64734e6eab",
+    "previewModeEncryptionKey": "f2bbd779b9079ce8e8c955959b24f6bb5ec99be6cf264d81bc4c3569b2db3945"
+  }
+}
