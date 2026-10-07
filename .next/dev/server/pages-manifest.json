@@ -1,4 +1,5 @@
 {
+  "/": "pages/index.js",
   "/[lang]": "pages/[lang].js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js"

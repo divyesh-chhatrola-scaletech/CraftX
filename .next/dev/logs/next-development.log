@@ -9,3 +9,23 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 [01:19:57.671] Browser WARN    Image with src "/_next/static/media/solution-1.1b7bc895.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:19:57.671] Browser WARN    Image with src "/_next/static/media/solution-2.ebead4e6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:19:57.671] Browser WARN    Image with src "/_next/static/media/solution-3.22dc236b.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:28:35.994] Browser WARN    Image with src "/_next/static/media/usp-image.d555b5fd.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:28:35.995] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:28:37.488] Browser WARN    Image with src "/_next/static/media/solution-1.1b7bc895.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:28:37.488] Browser WARN    Image with src "/_next/static/media/solution-2.ebead4e6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:28:37.488] Browser WARN    Image with src "/_next/static/media/solution-3.22dc236b.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:29:02.511] Browser WARN    Image with src "/_next/static/media/usp-image.d555b5fd.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:29:02.511] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:29:03.894] Browser WARN    Image with src "/_next/static/media/solution-1.1b7bc895.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:29:03.894] Browser WARN    Image with src "/_next/static/media/solution-3.22dc236b.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:29:03.894] Browser WARN    Image with src "/_next/static/media/solution-2.ebead4e6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:30:13.327] Browser WARN    Image with src "/_next/static/media/usp-image.d555b5fd.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:30:13.327] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[01:30:14.148] Browser WARN    Image with src "/_next/static/media/solution-1.1b7bc895.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:30:14.148] Browser WARN    Image with src "/_next/static/media/solution-2.ebead4e6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:30:14.148] Browser WARN    Image with src "/_next/static/media/solution-3.22dc236b.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:30:29.461] Server  LOG     ✓ Compiled in 187ms
+[01:30:40.211] Server  LOG     ✓ Compiled in 71ms

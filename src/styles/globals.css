@@ -448,8 +448,8 @@ section {
 
 .footer-top-row {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr 0.8fr;
-  gap: 48px;
+  grid-template-columns: 1fr auto auto;
+  gap: 80px;
   position: relative;
   z-index: 2;
 }
@@ -474,7 +474,8 @@ section {
   color: rgba(255, 255, 255, 0.50);
   font-size: 14px;
   line-height: 1.7;
-  max-width: 320px;
+  max-width: 100%;
+  white-space: nowrap;
   letter-spacing: 0.01em;
 }
 
@@ -637,6 +638,10 @@ section {
 @media (max-width: 640px) {
   .footer-wrapper {
     padding: 0 16px 24px;
+  }
+
+  .footer-description {
+    white-space: normal;
   }
 
   .footer-container {
