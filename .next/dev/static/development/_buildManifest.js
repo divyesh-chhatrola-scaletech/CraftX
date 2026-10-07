@@ -1,7 +1,4 @@
 self.__BUILD_MANIFEST = {
-  "/": [
-    "static/chunks/pages/index.js"
-  ],
   "/[lang]": [
     "static/chunks/pages/[lang].js"
   ],
