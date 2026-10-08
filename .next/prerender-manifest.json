@@ -1,62 +1,10 @@
 {
   "version": 4,
   "routes": {
-    "/en/privacy": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/[lang]/privacy",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/en/privacy.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/de/privacy": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/[lang]/privacy",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/de/privacy.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/en/terms": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/[lang]/terms",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/en/terms.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/de/terms": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/[lang]/terms",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/de/terms.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/en/imprint": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[lang]/imprint",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/en/imprint.json",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/en/imprint.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -69,7 +17,59 @@
     "/de/imprint": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[lang]/imprint",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/de/imprint.json",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/de/imprint.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/privacy": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/privacy",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/en/privacy.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/privacy": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/privacy",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/de/privacy.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/terms": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/terms",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/en/terms.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/terms": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/terms",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/de/terms.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -82,7 +82,7 @@
     "/landing-page/en": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/landing-page/[lang]",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing-page/en.json",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/landing-page/en.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -95,7 +95,7 @@
     "/landing-page/de": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/landing-page/[lang]",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing-page/de.json",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/landing-page/de.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -107,11 +107,25 @@
     }
   },
   "dynamicRoutes": {
+    "/[lang]/imprint": {
+      "routeRegex": "^/([^/]+?)/imprint(?:/)?$",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/[lang]/imprint.json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/([^/]+?)/imprint\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/[lang]/privacy": {
       "routeRegex": "^/([^/]+?)/privacy(?:/)?$",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/[lang]/privacy.json",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/[lang]/privacy.json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/privacy\\.json$",
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/([^/]+?)/privacy\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -123,23 +137,9 @@
     },
     "/[lang]/terms": {
       "routeRegex": "^/([^/]+?)/terms(?:/)?$",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/[lang]/terms.json",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/[lang]/terms.json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/terms\\.json$",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/[lang]/imprint": {
-      "routeRegex": "^/([^/]+?)/imprint(?:/)?$",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/[lang]/imprint.json",
-      "fallback": false,
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/imprint\\.json$",
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/([^/]+?)/terms\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -151,9 +151,9 @@
     },
     "/landing-page/[lang]": {
       "routeRegex": "^/landing\\-page/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing-page/[lang].json",
+      "dataRoute": "/_next/data/dtmbecDFw-sn7KgWcKhWZ/landing-page/[lang].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing\\-page/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/landing\\-page/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -166,8 +166,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "509ecca9fcc917c1a9e26123df02c468",
-    "previewModeSigningKey": "3ba7a69f55835ea5dbf1ef56a8e2d5cb65f094ddd6c9297ed24ace5e716f2e7c",
-    "previewModeEncryptionKey": "e9196dce3195110d1dd0bb02e0e3180ac10434d13b1edadb81b8dd99c5a72306"
+    "previewModeId": "38254f18e605b5a379ad3a510d8a2ed2",
+    "previewModeSigningKey": "71456bdb2b2475d6e21d15b067fb48adbf1fbff31d1b8a787f56c17ad866aac1",
+    "previewModeEncryptionKey": "114f8a98ac6ce44e22030a06a57fd560cd9a6d62ef854b0a9538fb631de92511"
   }
 }

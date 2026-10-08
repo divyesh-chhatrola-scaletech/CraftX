@@ -12,7 +12,7 @@
       "static/chunks/turbopack-src_pages_index_fa1bf45e._.js"
     ],
     "/[lang]": [
-      "static/chunks/[root-of-the-server]__7dc2c20b._.js",
+      "static/chunks/[root-of-the-server]__d28d3c6a._.js",
       "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
       "static/chunks/node_modules_next_dist_shared_lib_5c3781f8._.js",
       "static/chunks/node_modules_next_dist_client_eed3d468._.js",
@@ -23,7 +23,7 @@
       "static/chunks/node_modules_framer-motion_dist_es_f4ab0515._.js",
       "static/chunks/node_modules_4c6442b2._.js",
       "static/chunks/src_pages_[lang]_index_tsx_2da965e7._.js",
-      "static/chunks/turbopack-src_pages_[lang]_index_tsx_6625888a._.js"
+      "static/chunks/turbopack-src_pages_[lang]_index_tsx_fc63523e._.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_8ca6b690._.js",

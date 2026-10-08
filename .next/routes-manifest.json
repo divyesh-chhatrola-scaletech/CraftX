@@ -73,47 +73,47 @@
   "dataRoutes": [
     {
       "page": "/",
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/index\\.json$"
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/index\\.json$"
     },
     {
       "page": "/landing-page/[lang]",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing\\-page/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing\\-page/(?<nxtPlang>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/landing\\-page/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/landing\\-page/(?<nxtPlang>[^/]+?)\\.json$"
     },
     {
       "page": "/[lang]",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/(?<nxtPlang>[^/]+?)\\.json$"
     },
     {
       "page": "/[lang]/imprint",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/imprint\\.json$",
-      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)/imprint\\.json$"
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/([^/]+?)/imprint\\.json$",
+      "namedDataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/(?<nxtPlang>[^/]+?)/imprint\\.json$"
     },
     {
       "page": "/[lang]/privacy",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/privacy\\.json$",
-      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)/privacy\\.json$"
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/([^/]+?)/privacy\\.json$",
+      "namedDataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/(?<nxtPlang>[^/]+?)/privacy\\.json$"
     },
     {
       "page": "/[lang]/terms",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
-      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/terms\\.json$",
-      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)/terms\\.json$"
+      "dataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/([^/]+?)/terms\\.json$",
+      "namedDataRouteRegex": "^/_next/data/dtmbecDFw\\-sn7KgWcKhWZ/(?<nxtPlang>[^/]+?)/terms\\.json$"
     }
   ],
   "rsc": {

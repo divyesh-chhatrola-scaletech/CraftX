@@ -5,11 +5,11 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import cap01Voice from "@/assets/images/ai-capabilities/cap-01-voice.jpg";
-import cap02Predictive from "@/assets/images/ai-capabilities/cap-02-predictive.jpg";
+import cap01Voice from "@/assets/images/cap-01-voice-1404x700.webp";
+import cap02Predictive from "@/assets/images/cap-02-predictive-1404x700.webp";
 import cap03Assignment from "@/assets/images/ai-capabilities/cap-03-assignment.jpg";
-import cap04Inquiry from "@/assets/images/ai-capabilities/cap-04-inquiry.jpg";
-import cap05Priority from "@/assets/images/ai-capabilities/cap-05-priority.jpg";
+import cap04Inquiry from "@/assets/images/cap-04-inquiry-1404x700.webp";
+import cap05Priority from "@/assets/images/cap-05-priority-1404x700.webp";
 
 interface Props {
   lang: Lang;
