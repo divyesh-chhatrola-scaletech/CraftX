@@ -59,8 +59,8 @@ export const PricingSection: React.FC<Props> = ({ lang }) => {
       <div className="container-1404 relative z-10">
         
         {/* ── EDITORIAL HEADER ── */}
-        <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-16 max-w-[1000px]">
-          <div className="text-left flex-1">
+        <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 mb-16 w-full">
+          <div className="text-left flex-1 max-w-[800px]">
             <motion.h2
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
