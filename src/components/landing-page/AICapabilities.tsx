@@ -62,7 +62,7 @@ export const AICapabilities: React.FC<Props> = ({ lang }) => {
               src={capabilities[currentIndex].image}
               alt={capabilities[currentIndex].title}
               fill
-              className="object-cover object-center"
+              className="object-contain object-center"
               priority
             />
           </motion.div>

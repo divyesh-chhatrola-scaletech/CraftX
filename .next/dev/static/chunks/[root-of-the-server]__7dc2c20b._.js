@@ -3017,7 +3017,7 @@ const AICapabilities = ({ lang })=>{
                             src: capabilities[currentIndex].image,
                             alt: capabilities[currentIndex].title,
                             fill: true,
-                            className: "object-cover object-center",
+                            className: "object-contain object-center",
                             priority: true
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing-page/AICapabilities.tsx",

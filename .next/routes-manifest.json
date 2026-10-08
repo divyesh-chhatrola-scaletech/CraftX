@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "pages",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/landing-page/[lang]",
+      "regex": "^/landing\\-page/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/landing\\-page/(?<nxtPlang>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[lang]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[lang]/imprint",
+      "regex": "^/([^/]+?)/imprint(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/imprint(?:/)?$"
+    },
+    {
+      "page": "/[lang]/privacy",
+      "regex": "^/([^/]+?)/privacy(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/privacy(?:/)?$"
+    },
+    {
+      "page": "/[lang]/terms",
+      "regex": "^/([^/]+?)/terms(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/terms(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    }
+  ],
+  "dataRoutes": [
+    {
+      "page": "/",
+      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/index\\.json$"
+    },
+    {
+      "page": "/landing-page/[lang]",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing\\-page/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/landing\\-page/(?<nxtPlang>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/[lang]",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/[lang]/imprint",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/imprint\\.json$",
+      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)/imprint\\.json$"
+    },
+    {
+      "page": "/[lang]/privacy",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/privacy\\.json$",
+      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)/privacy\\.json$"
+    },
+    {
+      "page": "/[lang]/terms",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "dataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/([^/]+?)/terms\\.json$",
+      "namedDataRouteRegex": "^/_next/data/PvJ2GXXz2yNOBduIhVJiV/(?<nxtPlang>[^/]+?)/terms\\.json$"
+    }
+  ],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
